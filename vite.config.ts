@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     singleSpa({
       type: 'mife',
-      serverPort: 7101,
+      serverPort: 7102,
     }),
   ],
 
@@ -16,11 +16,11 @@ export default defineConfig(({ mode }) => ({
     minify: mode === 'production',
     rollupOptions: {
       input: {
-        'mfe-template': './src/spa.ts',
+        'mfe-about': './src/spa.ts',
       },
       output: {
         format: 'system',
-        entryFileNames: 'mfe-template.js',
+        entryFileNames: 'mfe-about.js',
         dir: 'dist',
       },
       external: ['@shared/tolgee'],

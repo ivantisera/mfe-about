@@ -1,4 +1,4 @@
-# 📦 MFE Template
+# 📦 MFE About
 
 This project is a base **microfrontend (MFE)** built with **React**, **Vite**, and **TypeScript**, featuring internationalization support with **Tolgee**. It is designed to be integrated into a container application using **Single SPA**.
 

@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <>
-      <h1>MFE Template Home Page</h1>
+      <h1>MFE About Home Page</h1>
       <p>{t('my_name')}</p>
     </>
   );
